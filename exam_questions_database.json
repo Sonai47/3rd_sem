@@ -1,0 +1,3725 @@
+{
+  "university": "B.Tech CSE (IoT) - 3rd Semester",
+  "subjects": [
+    {
+      "id": "IOT2101",
+      "name": "Data Structures and Algorithms / Data Structures and Advanced Algorithms",
+      "code": "IOT2101",
+      "credits": 4,
+      "course_outcomes": [
+        "IOT2101.1: Understand asymptotic notations and explain the operations and applications of fundamental data structures in algorithm design.",
+        "IOT2101.2: Apply tree-based and heap-based data structures to solve computational problems.",
+        "IOT2101.3: Apply graph algorithms such as traversal techniques, minimum spanning trees, and shortest path algorithms to model and solve real-world problems.",
+        "IOT2101.4: Apply dynamic programming and greedy approaches to solve optimization problems, and analyze advanced algorithmic techniques including network flow, string matching, branch and bound, and approximation algorithms.",
+        "IOT2101.5: Analyze the time and space complexity of different algorithms using asymptotic notations and evaluate the suitability of data structures and algorithmic approaches for solving specific computational problems.",
+        "IOT2101.6: Examine the trade-offs between algorithmic approaches and distinguish between computationally feasible and computationally hard problems."
+      ],
+      "modules": [
+        {
+          "id": "IOT2101-M1",
+          "name": "Module I: Foundations and Basic Data Structures",
+          "topics": [
+            "Introduction to algorithms and complexity",
+            "Asymptotic notation: Big O, \u03a9, \u0398",
+            "Arrays, linked lists, and dynamic arrays",
+            "Stacks and queues (applications: infix \u2192 postfix conversion, expression evaluation)",
+            "Hashing and hash functions, collision resolution strategies",
+            "Amortized analysis"
+          ]
+        },
+        {
+          "id": "IOT2101-M2",
+          "name": "Module II: Trees and Divide & Conquer Algorithms",
+          "topics": [
+            "Binary trees and binary search trees (BST)",
+            "AVL trees, Red-Black trees (self-balancing BSTs)",
+            "Heaps and priority queues, Heap sort",
+            "Divide & conquer: Merge Sort and Quick Sort, Randomized Quick Sort"
+          ]
+        },
+        {
+          "id": "IOT2101-M3",
+          "name": "Module III: Graph Algorithms and Greedy Techniques",
+          "topics": [
+            "Graph representations: adjacency list, adjacency matrix",
+            "BFS and DFS, connected components",
+            "Topological sort",
+            "Minimum spanning tree (Kruskal's, Prim's)",
+            "Dijkstra's and Bellman-Ford algorithms",
+            "Floyd-Warshall and All-Pairs Shortest Paths",
+            "Union-Find data structure (Disjoint Set Union - DSU)"
+          ]
+        },
+        {
+          "id": "IOT2101-M4",
+          "name": "Module IV: Dynamic Programming and Advanced Topics",
+          "topics": [
+            "Introduction to Dynamic Programming: principles & examples",
+            "Knapsack, Matrix Chain Multiplication",
+            "Introduction to Network Flow: Ford-Fulkerson algorithm",
+            "KMP (string matching)",
+            "Advanced topics: Branch and Bound Algorithm, Approximation Algorithm"
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "year": 2025,
+          "paper_code": "IOT2101/2025",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 16.67,
+            "IOCQ": 66.67,
+            "HOCQ": 16.67
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Let A be a two-dimensional array declared as follows: A: array [1\u202610] [1\u202615] of character; Assuming that each character takes one memory location, the array is stored in row-major order and the first element of the array is stored in location 100, what is the address of the element A[i][j]?",
+                  "options": {
+                    "a": "15i + j + 84",
+                    "b": "15j + i + 84",
+                    "c": "10i + j + 89",
+                    "d": "10j + i + 89"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "The load factor in hashing is defined as:",
+                  "options": {
+                    "a": "Table size / Number of keys",
+                    "b": "Number of keys / Table size",
+                    "c": "Number of collisions / Table size",
+                    "d": "None of these"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "The height of a complete binary tree with n nodes is approximately:",
+                  "options": {
+                    "a": "log\u2082 n",
+                    "b": "n/2",
+                    "c": "n",
+                    "d": "\u221an"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "What is the worst-case time complexity of quick sort?",
+                  "options": {
+                    "a": "O(n log n)",
+                    "b": "O(n\u00b2)",
+                    "c": "O(log n)",
+                    "d": "O(n)"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "Red-Black trees guarantee which property?",
+                  "options": {
+                    "a": "All leaves are black",
+                    "b": "Root is always black",
+                    "c": "Red nodes have black children",
+                    "d": "All of these"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "Dijkstra algorithm's running time depends on:",
+                  "options": {
+                    "a": "Graph representation",
+                    "b": "Choice of priority queue",
+                    "c": "Number of vertices and edges",
+                    "d": "All of the above"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "In union-find, path compression helps:",
+                  "options": {
+                    "a": "Avoid cycles",
+                    "b": "Speed up find operation",
+                    "c": "Balance the tree",
+                    "d": "Delete nodes"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "Matrix chain multiplication problem aims to optimize:",
+                  "options": {
+                    "a": "Number of elements multiplied",
+                    "b": "Order of multiplication",
+                    "c": "Resultant matrix size",
+                    "d": "None"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "The time complexity of Floyd-Warshall algorithm with n number of nodes is:",
+                  "options": {
+                    "a": "O(n)",
+                    "b": "O(n\u00b2)",
+                    "c": "O(n\u00b3)",
+                    "d": "O(n log n)"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "In branch and bound, the node whose bound is the best is:",
+                  "options": {
+                    "a": "Expanded first",
+                    "b": "Ignored",
+                    "c": "Deleted",
+                    "d": "None"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "The primary data structure used to implement recursion is a ________.",
+                  "answer": "Stack",
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "The traversal of a binary search tree that produces nodes in sorted order is ________ traversal.",
+                  "answer": "In-order",
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "Topological sort can be applied only on ________ graphs.",
+                  "answer": "Directed Acyclic (DAG)",
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "The asymptotic time complexity of building a max-heap is __________.",
+                  "answer": "O(n)",
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "KMP algorithm uses the ________ function to avoid unnecessary comparisons.",
+                  "answer": "Failure / Prefix",
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "instruction": "Answer any one from each group",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Descriptive",
+                  "question": "How do you merge two sorted linked lists into a single sorted linked list? Provide an algorithm and analyze its time complexity.",
+                  "marks": 4,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "State the advantages and disadvantages of linked list over array.",
+                  "marks": 3,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(c)",
+                  "type": "Numerical",
+                  "question": "Find the Big-Oh for T(n) = 48n^100 + 2^(n+2) + 3n\u00b2 + 100. Justify your answer.",
+                  "marks": 3,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "2(d)",
+                  "type": "Descriptive",
+                  "question": "Is Double Ended Queue a FIFO data structure? Explain.",
+                  "marks": 2,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Numerical",
+                  "question": "Convert the infix expression A*(B+C/D)-E^F to postfix, showing stack contents at each step.",
+                  "marks": 4,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Numerical",
+                  "question": "Evaluate the postfix expression 5 2 3 + * 4 2 ^ -; show stack transitions.",
+                  "marks": 4,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(c)",
+                  "type": "Descriptive",
+                  "question": "Why is it beneficial to use a circular array to implement a queue? Explain with an example.",
+                  "marks": 4,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "HOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "instruction": "Answer any one from each group",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "Define binary tree, full binary tree, complete binary tree and binary search tree with examples.",
+                  "marks": 4,
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Numerical",
+                  "question": "Show each and every step to construct a binary search tree (BST), for which the in-order and post-order traversal sequences are: In-order: 20 30 50 75 80 100 180 190 195 200 250 295; Post-order: 30 20 75 80 50 195 190 200 180 295 250 100. Delete the data items 100 and 50 (one at a time) from the above constructed BST.",
+                  "marks": 8,
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Numerical",
+                  "question": "Show each step of insertions (along with any height balancing steps, if required), to construct an AVL tree using the following keys, inserted one at a time: 45, 80, 70, 40, 30, 65, 35, 25, 27, 15. Show each step of deletion from the AVL tree, deleting keys (one at a time): 70, 80.",
+                  "marks": 8,
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Proof",
+                  "question": "For a binary tree with n internal nodes where every internal node has exactly two children, prove the number of leaves is n+1.",
+                  "marks": 4,
+                  "module": "IOT2101-M2",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "instruction": "Answer any one from each group",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Descriptive",
+                  "question": "Describe how to count connected components in an undirected graph using Breadth First Search (BFS) or Depth First Search (DFS) algorithm. Analyze the complexity of this algorithm.",
+                  "marks": 6,
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Descriptive",
+                  "question": "Define adjacency matrix and adjacency list. Compare the time and space complexity of these two graph representations.",
+                  "marks": 6,
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Numerical",
+                  "question": "Apply Prim's algorithm to find Minimum Spanning Tree (MST) of the given graph. Show all steps. (Graph with nodes A, B, C, D, E and edges with weights as given in the figure.)",
+                  "marks": 6,
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Descriptive",
+                  "question": "Explain the Union-Find (Disjoint Set Union) data structure. Illustrate union by rank and path compression with an example.",
+                  "marks": 6,
+                  "module": "IOT2101-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "instruction": "Answer any one from each group",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Descriptive",
+                  "question": "Describe the differences between 0/1 Knapsack and Fractional Knapsack problems.",
+                  "marks": 3,
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Descriptive",
+                  "question": "Explain the greedy vs Dynamic Programming approaches for the Knapsack problem.",
+                  "marks": 3,
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "8(c)",
+                  "type": "Numerical",
+                  "question": "Solve the 0/1 Knapsack problem using Dynamic Programming for the given items and knapsack capacity=11. Items: P1=50 (W=5), P2=30 (W=6), P3=32 (W=4), P4=27 (W=3).",
+                  "marks": 6,
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Descriptive",
+                  "question": "Define the concept of residual graph and augmenting path in the context of network flow.",
+                  "marks": 3,
+                  "module": "IOT2101-M4",
+                  "co": "CO6",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Numerical",
+                  "question": "Apply Ford-Fulkerson algorithm on a given flow network and compute the maximum flow where source=0 and sink=5. (Network as given in figure.)",
+                  "marks": 6,
+                  "module": "IOT2101-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(c)",
+                  "type": "Descriptive",
+                  "question": "Mention real-world applications of max-flow algorithms.",
+                  "marks": 3,
+                  "module": "IOT2101-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "paper_code": "CSE2101/2024",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 21.88,
+            "IOCQ": 66.67,
+            "HOCQ": 11.46
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Let A be a two-dimensional array declared as follows: A: array [1\u202610] [1\u202615] of character; Assuming that each character takes one memory location, the array is stored in row-major order, and the first element is stored in location 100, what is the address of A[i][j]?",
+                  "options": {
+                    "a": "15i + j + 84",
+                    "b": "15j + i + 84",
+                    "c": "10i + j + 89",
+                    "d": "10j + i + 89"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "The time complexity of inserting an element at the beginning of a singly-circular linked list having only one external pointer pointing to the head is:",
+                  "options": {
+                    "a": "O(1)",
+                    "b": "O(log\u2082n)",
+                    "c": "O(n)",
+                    "d": "O(n\u00b2)"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2101-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "What is the output of the function for start pointing to first node of linked list 1->2->3->4->5->6? (function prints start->data, recurses on start->next->next, prints start->data again)",
+                  "options": {
+                    "a": "1 4 6 6 4 1",
+                    "b": "1 3 5 1 3 5",
+                    "c": "1 2 3 5",
+                    "d": "1 3 5 5 3 1"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2101-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "The equivalent Postfix notation for ((A + B) * C \u2013 (D \u2013 E) ^ (F + G)) is:",
+                  "options": {
+                    "a": "AB + C * DE - - FG + ^",
+                    "b": "^ - * +ABC - DE + FG",
+                    "c": "(AB)+CDE* -- FG+^",
+                    "d": "AB*+DE\u2014FG+^"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "A stack S has entries a, b, c with 'a' on top. Stack T is empty. An entry from S can be printed or pushed to T. When S is empty, T is popped and printed. Which sequence can NEVER be printed?",
+                  "options": {
+                    "a": "a b c",
+                    "b": "b a c",
+                    "c": "b c a",
+                    "d": "c a b"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2101-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "The BFS algorithm implemented using queue. One possible order of visiting nodes of the given graph (M-N-O connected, R-Q-P connected, M-R, N-Q, N-P, O-P) is:",
+                  "options": {
+                    "a": "MNOPQR",
+                    "b": "NQMPOR",
+                    "c": "QMNPRO",
+                    "d": "QMNPOR"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "The number of edges in a complete undirected graph with n vertices is",
+                  "options": {
+                    "a": "n(n-1)",
+                    "b": "n(n-1)/2",
+                    "c": "n\u00b2",
+                    "d": "2n-1"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2101-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "Which of the following is true regarding a Max Heap?",
+                  "options": {
+                    "a": "Maximum element occurs at the root",
+                    "b": "Minimum element occurs as the last child element",
+                    "c": "BuildMaxHeap has time complexity O(n log n)",
+                    "d": "HeapSort can have worst case time complexity as O(n\u00b2)"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2101-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "Which of the following statement(s) is/are correct? S1: Each B-Tree of order 2 will always be a BST. S2: Every graph will always be a tree. S3: Every tree will be a graph, but every graph will not always be a tree. S4: Every graph will be a tree, but every tree will not always be a graph.",
+                  "options": {
+                    "a": "Both Statement 2 and Statement 4",
+                    "b": "Only Statement 1",
+                    "c": "Both Statement 1 and Statement 3",
+                    "d": "Only Statement 3"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2101-M2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "If an array has n keys uniformly distributed, the number of comparisons required to locate a key x already present in the array is:",
+                  "options": {
+                    "a": "1",
+                    "b": "\u221an",
+                    "c": "n/2",
+                    "d": "log\u2099x"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2101-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "Linked lists are not suitable to implement __________ search.",
+                  "answer": "Binary",
+                  "module": "IOT2101-M1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "A linked list having n nodes (n >= 1) where no node stores a NULL pointer is a ____________ linked list.",
+                  "answer": "Circular",
+                  "module": "IOT2101-M1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "If the in-order traversal of a tree is E A C K F H D B G, its pre-order traversal is __________.",
+                  "answer": "D A E C K B F H G",
+                  "module": "IOT2101-M2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "The collision resolution technique where the colliding element is placed in the next available empty slot in the hash table is called _________.",
+                  "answer": "Linear probing / Open addressing",
+                  "module": "IOT2101-M1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "The time complexity of building a max-heap is __________.",
+                  "answer": "O(n)",
+                  "module": "IOT2101-M2",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Algorithmic",
+                  "question": "Propose an algorithm to remove duplicates from an ordered array, without using any second array. Example input: 1, 1, 3, 4, 8, 8, 10, 10, 25, 28, 30, 30, 30 \u2192 output: 1,3,4,8,10,25,28,30. What is the time complexity?",
+                  "marks": 6,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "If the number of nonzero elements in the triple representation of a sparse matrix of m\u00d7n dimension is K, what is the time complexity to read element at index [i][j]?",
+                  "marks": 2,
+                  "module": "IOT2101-M1",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(c)",
+                  "type": "Algorithmic",
+                  "question": "Write an algorithm/C-like pseudo code to delete the last element from a circular singly linked list. What is the time complexity?",
+                  "marks": 4,
+                  "module": "IOT2101-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Algorithmic",
+                  "question": "How do you merge two sorted linked lists into a single sorted linked list? Provide an algorithm and analyze its time complexity.",
+                  "marks": 7,
+                  "module": "IOT2101-M1",
+                  "co": "CO3",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Descriptive",
+                  "question": "State the advantages and disadvantages of linked list over array.",
+                  "marks": 3,
+                  "module": "IOT2101-M1",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(c)",
+                  "type": "Numerical",
+                  "question": "Find the Big-Oh for T(n) = 48n^100 + 2^(n+2) + 3n\u00b2 + 100.",
+                  "marks": 2,
+                  "module": "IOT2101-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Algorithmic",
+                  "question": "Write a small C function to print the moves of the Tower of Hanoi problem using recursion. Smallest disc is 'disc 1', largest is 'disc n'. Pegs: source ('S'), destination ('D'), temporary ('T').",
+                  "marks": 5,
+                  "module": "IOT2101-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Numerical",
+                  "question": "Write the output of the Tower of Hanoi function if called with n = 4.",
+                  "marks": 2,
+                  "module": "IOT2101-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "4(c)",
+                  "type": "Analytical",
+                  "question": "What will the function fun(5, 0, 1) return? Identify what the function calculates: fun(n,a,b) { if(n==0) return a; if(n==1) return b; return fun(n-1, b, a+b); }",
+                  "marks": 5,
+                  "module": "IOT2101-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "Why is it beneficial to use a circular array to implement a queue? Explain with an example.",
+                  "marks": 2,
+                  "module": "IOT2101-M1",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "How is a circular linked list with a head pointer different from one with a tail pointer? Which is better suited for implementing a queue (with only one external pointer)?",
+                  "marks": 4,
+                  "module": "IOT2101-M1",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(c)",
+                  "type": "Numerical",
+                  "question": "Stepwise convert the infix expression ((5+7)-(4*3))+(6/3)/2-9 to its postfix. Then evaluate the postfix expression.",
+                  "marks": 6,
+                  "module": "IOT2101-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Descriptive",
+                  "question": "Define Binary Search Tree. Consider a BST with distinct integers in [1,1000]. To search 363, which of the following probe sequences are correct and which are not? Justify: (i) 2,252,401,398,330,344,397,363 (ii) 924,220,911,244,898,258,362,363 (iii) 925,202,911,240,912,245,363 (iv) 2,399,387,219,266,382,381,278,363 (v) 935,278,347,621,299,392,358,363.",
+                  "marks": 6,
+                  "module": "IOT2101-M2",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Algorithmic",
+                  "question": "The square of a directed graph G=(V,E) is G2=(V,E2) such that (u,w) in E2 iff for some v in V, both (u,v) and (v,w) in E. Describe an efficient algorithm for computing G2 from G for adjacency-matrix representation. Analyze running times.",
+                  "marks": 6,
+                  "module": "IOT2101-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Algorithmic",
+                  "question": "Consider a binary tree with n (n>=0) nodes in linked representation (data, left ptr, right ptr). Suggest a function to determine if the binary tree is a BST or not. What is the best case time complexity?",
+                  "marks": 5,
+                  "module": "IOT2101-M2",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Algorithmic",
+                  "question": "Write a recursive algorithm to display all keys of a BST in sorted (ascending) order.",
+                  "marks": 3,
+                  "module": "IOT2101-M2",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(c)",
+                  "type": "Descriptive",
+                  "question": "Given undirected G=(V,E), let d(u,v) be the minimum edges on a path between u and v. Let the diameter of G be the maximum d(u,v) over all pairs. Explain how to find the diameter using BFS.",
+                  "marks": 4,
+                  "module": "IOT2101-M3",
+                  "co": "CO2",
+                  "cognition": "HOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Proof",
+                  "question": "Show that the expected number of comparisons required to find an element from an array of n elements using sequential search, if the element occurs twice in the array, is (n + 1) / 3.",
+                  "marks": 5,
+                  "module": "IOT2101-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Algorithmic",
+                  "question": "In the following pseudo-code for Heapsort, array index starts from 1. Write modified pseudo-code for BUILD-MAX-HEAP and HEAPSORT when array index starts from 0.",
+                  "marks": 4,
+                  "module": "IOT2101-M2",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "8(c)",
+                  "type": "Numerical",
+                  "question": "If a Heap is stored in an array starting with index=1: (i) Index of left child of node with index 5? (ii) Index of right child of node with index 21? (iii) Index of parent of node with index j?",
+                  "marks": 3,
+                  "module": "IOT2101-M2",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Algorithmic",
+                  "question": "Write the non-recursive pseudo-code for Binary-search. State its best-case and average case complexity.",
+                  "marks": 5,
+                  "module": "IOT2101-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Descriptive",
+                  "question": "Give an example where using counting sort is better than any other comparison-sort. State the asymptotic time-complexity of counting sort, clearly defining the parameters.",
+                  "marks": 2,
+                  "module": "IOT2101-M1",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(c)",
+                  "type": "Numerical",
+                  "question": "In closed hashing using array of size 10, positions 0,1,2,5,6,9 are filled. Hash function h(k) = (k+10)%10. Draw the array. Calculate the probability that the next inserted key is NOT placed at index=3.",
+                  "marks": 5,
+                  "module": "IOT2101-M1",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alternate_names": [
+        "Data Structures and Advanced Algorithms (IOT2101) - 2025",
+        "Data Structures and Algorithms (CSE2101) - 2024"
+      ]
+    },
+    {
+      "id": "IOT2102",
+      "name": "Computer Organization and Architecture",
+      "code": "IOT2102",
+      "credits": 3,
+      "course_outcomes": [
+        "IOT2102.1: Understand the basic organization of computer and different instruction formats and addressing modes.",
+        "IOT2102.2: Analyze the concept of pipelining, segment registers and pin diagram of CPU.",
+        "IOT2102.3: Understand and analyze various issues related to memory hierarchy.",
+        "IOT2102.4: Understand various modes of data transfer between CPU and I/O devices.",
+        "IOT2102.5: Examine various inter connection structures of multi-processor.",
+        "IOT2102.6: Design architecture with all the required properties to solve state-of-the-art problems."
+      ],
+      "modules": [
+        {
+          "id": "IOT2102-M1",
+          "name": "Module I: Basics of Computer Organization",
+          "topics": [
+            "Basic organization of the stored program computer",
+            "Von Neumann & Harvard Architecture",
+            "RISC vs. CISC based architecture",
+            "Fetch, decode and execute cycle",
+            "Concept of registers and storage",
+            "Instruction format, Instruction sets and addressing modes",
+            "Basics of Control Unit Design - hardwired and micro programmed control",
+            "Horizontal and Vertical micro instruction"
+          ]
+        },
+        {
+          "id": "IOT2102-M2",
+          "name": "Module II: Memory and I/O Organization",
+          "topics": [
+            "Memory system overview, Cache memory organizations",
+            "Techniques for reducing cache misses",
+            "Hierarchical memory technology: Inclusion, Coherence and locality properties",
+            "Virtual Memory, Memory mapped IO",
+            "Introduction to I/O interfaces",
+            "Interrupts, Interrupt hardware, Enabling and Disabling interrupts",
+            "Concept of handshaking, Polled I/O, Priorities, Daisy Chaining",
+            "Vectored interrupts",
+            "Direct memory access, DMA control"
+          ]
+        },
+        {
+          "id": "IOT2102-M3",
+          "name": "Module III: Pipelined Architecture",
+          "topics": [
+            "Brief Introduction to pipelining",
+            "Performance Measures - speed up, Efficiency, performance-cost ratio",
+            "Static pipelines - reservation tables, scheduling of static pipelines",
+            "Minimum average latency, minimum achievable latency, greedy strategy",
+            "Vector Processing: Vector registers, Vector Functional Units, Vector Load/Store",
+            "Vectorization, Vector operations: gather/scatter, Masking, Vector chaining"
+          ]
+        },
+        {
+          "id": "IOT2102-M4",
+          "name": "Module IV: SIMD Architectures and Interconnection Networks",
+          "topics": [
+            "SIMD Architectures: Brief introduction",
+            "SIMD algorithms: Matrix multiplication, sorting on linear array",
+            "Interconnection Networks: Boolean cube, Mesh, Shuffle-exchange, Banyan, Omega, Butterfly",
+            "Generalized Hypercube, Delta networks"
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "year": 2025,
+          "paper_code": "IOT2102/2025",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 28,
+            "IOCQ": 65,
+            "HOCQ": 7
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Instruction cycle is",
+                  "options": {
+                    "a": "fetch-decode-execute",
+                    "b": "fetch-encode-execute",
+                    "c": "decode-fetch-execute",
+                    "d": "fetch-execute-decode"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "MOV #1000, R1 is",
+                  "options": {
+                    "a": "immediate addressing",
+                    "b": "register addressing",
+                    "c": "direct addressing",
+                    "d": "indirect addressing mode"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "The basic principle of the Von Neumann computer is",
+                  "options": {
+                    "a": "storing program and data in separate memory",
+                    "b": "using pipeline concept",
+                    "c": "using a large number of registers",
+                    "d": "storing both program and data in the same memory"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "Cache memory",
+                  "options": {
+                    "a": "increases performance",
+                    "b": "increases machine cycle",
+                    "c": "reduces performance",
+                    "d": "none of these"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2102-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "Cycle Stealing happens in case of",
+                  "options": {
+                    "a": "Programmed IO",
+                    "b": "DMA",
+                    "c": "Non-Maskable Interrupt",
+                    "d": "Maskable Interrupt"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "An external controller directly transfers data between memory and I/O devices without CPU intervention. What kind of data transfer mechanism is this?",
+                  "options": {
+                    "a": "Interrupt driven I/O",
+                    "b": "DMA",
+                    "c": "Programmed I/O",
+                    "d": "Memory mapped I/O"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "Each stage in pipelining should be completed within ___________ cycle.",
+                  "options": {
+                    "a": "1",
+                    "b": "2",
+                    "c": "3",
+                    "d": "4"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "Which of the following does not use parallel processing?",
+                  "options": {
+                    "a": "Pipeline processing",
+                    "b": "Scalar processing",
+                    "c": "Vector processing",
+                    "d": "Array processors"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "Illiac IV is an example of",
+                  "options": {
+                    "a": "SISD",
+                    "b": "SIMD",
+                    "c": "MISD",
+                    "d": "MIMD"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "The binary number obtained after shuffling 01101100 is",
+                  "options": {
+                    "a": "10011100",
+                    "b": "01101010",
+                    "c": "01111000",
+                    "d": "10100110"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "Principle of locality justifies the use of ______ memory.",
+                  "answer": "Cache",
+                  "module": "IOT2102-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "An instruction fetched from memory is brought to __________ register.",
+                  "answer": "Instruction Register (IR)",
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "The situation wherein the data of operands are not available is called _______________",
+                  "answer": "Data Hazard",
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "The contention for the usage of a hardware device is called _______________",
+                  "answer": "Structural Hazard",
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "_________________ addressing mode supports the use of pointers.",
+                  "answer": "Indirect",
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the use of the following registers: (i) Program counter (ii) Instruction register (iii) Memory address register (iv) Memory data register (v) Accumulator (vi) Stack Pointer.",
+                  "marks": 6,
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "Describe any three control unit design methods with diagram.",
+                  "marks": 6,
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Numerical",
+                  "question": "Two word instruction 'LOAD AC' is stored at location 200 with its address field at location 201. The address field has the value 500. A processor register R1 contains the number 400. The content of memory locations 400, 500, 700, 702, 900 are 60, 700, 80, 90, 100 respectively. Evaluate the effective address and the content of accumulator after execution for addressing modes: (i) direct (ii) indirect (iii) immediate (iv) relative (v) register indirect (vi) index with R1.",
+                  "marks": 6,
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Descriptive",
+                  "question": "Differentiate between Von Neumann and Harvard Architecture. Explain using schematic diagrams.",
+                  "marks": 6,
+                  "module": "IOT2102-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "Describe briefly, the sequence of events involved in DMA Transfer.",
+                  "marks": 5,
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Descriptive",
+                  "question": "State one advantage and one disadvantage of memory-mapped IO, compared to IO-mapped IO.",
+                  "marks": 3,
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(c)",
+                  "type": "Descriptive",
+                  "question": "Briefly explain, with examples, vectored and non-vectored interrupts.",
+                  "marks": 4,
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "What are the different types of interrupt? Give examples.",
+                  "marks": 4,
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "Explain: 'Interrupt request is serviced at the end of current instruction cycle while DMA request is serviced almost as soon as it is received, even before completion of current instruction execution.'",
+                  "marks": 4,
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(c)",
+                  "type": "Descriptive",
+                  "question": "What are the advantages and disadvantages of an asynchronous transfer? Differentiate between polled I/O and interrupt driven I/O.",
+                  "marks": 4,
+                  "module": "IOT2102-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Numerical",
+                  "question": "How can hazard occur in executing the following set of instructions? I1: MOV R1,A; I2: ADD R2,R3; I3: SUB R4,R5; I4: NOP. Assume a pipeline unit consisting of four stages.",
+                  "marks": 4,
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Numerical",
+                  "question": "Consider the following program on a vector processor: For I=0 to 49, C(I) = A(I) + B(I). Show the sequence of vector instructions and calculate how many cycles will be needed.",
+                  "marks": 5,
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "6(c)",
+                  "type": "Numerical",
+                  "question": "How can use of vector chaining improve performance if we add the line E(I) = C(I) + D(I) to the previous program?",
+                  "marks": 3,
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Descriptive",
+                  "question": "Distinguish between the different types of pipeline hazards using suitable examples.",
+                  "marks": 6,
+                  "module": "IOT2102-M3",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Numerical",
+                  "question": "Consider a 3-stage pipelined processor having a delay of 10ns, 20ns, and 14ns for the first, second and third stages respectively. Assuming no other delay and no pipeline hazard, one instruction is fetched every cycle. Calculate the total execution time for 100 instructions.",
+                  "marks": 3,
+                  "module": "IOT2102-M3",
+                  "co": "CO6",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(c)",
+                  "type": "Numerical",
+                  "question": "Consider a 5-segment pipeline with a clock cycle time of 20ns in each sub-operation. Find out the approximate speed-up ratio between pipelined and non-pipelined system to execute 100 instructions (if on average, every five cycles, a bubble due to data hazard is introduced).",
+                  "marks": 3,
+                  "module": "IOT2102-M3",
+                  "co": "CO6",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Diagram",
+                  "question": "Draw the diagram of a 2\u00b3 \u00d7 3\u00b3 Delta Network.",
+                  "marks": 4,
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Numerical",
+                  "question": "Draw the diagram of a multi-stage 8\u00d78 Omega network. Show the paths for routing a message from node #6 to node #0 and from node #2 to node #7 simultaneously. State with reasons whether blocking exists.",
+                  "marks": 8,
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Diagram",
+                  "question": "Draw the diagram of a 2-stage Delta network, in which, 4-shuffle of 12 objects is used as the interconnection network.",
+                  "marks": 4,
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Numerical",
+                  "question": "Derive an expression for the total number of a\u00d7b crossbar modules required in a^n \u00d7 b^n delta network. What happens when a = b?",
+                  "marks": 4,
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "9(c)",
+                  "type": "Descriptive",
+                  "question": "Write down the expressions for Shuffle (S) and Exchange (E) functions of an n-bit binary number. From these expressions, implement single-stage recirculating shuffle-exchange network for 8 nodes.",
+                  "marks": 4,
+                  "module": "IOT2102-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IOT2103",
+      "name": "Computer Networks",
+      "code": "IOT2103",
+      "credits": 3,
+      "course_outcomes": [
+        "IOT2103.1: Learn the terminology and concepts of the OSI reference model, TCP-IP reference model and the need for the layered architecture.",
+        "IOT2103.2: Understand the concepts of protocols, network interfaces, and design/performance issues in local area networks and wide area networks.",
+        "IOT2103.3: Analyze the requirements for a given organizational structure and select the most appropriate networking architecture and technologies.",
+        "IOT2103.4: Demonstrate various types of routing techniques.",
+        "IOT2103.5: Defend and argue the various quality of service measures to improve network throughput.",
+        "IOT2103.6: Synthesize the strength and shortcomings of the underlying protocols, and then go on to hypothesize new and better application layer protocols."
+      ],
+      "modules": [
+        {
+          "id": "IOT2103-M1",
+          "name": "Module 1: Introduction and Physical Layer",
+          "topics": [
+            "Direction of data flow (simplex, half duplex, full duplex)",
+            "Network topology, categories of network (LAN, MAN, WAN)",
+            "Protocols and standards: OSI reference model, TCP/IP reference model",
+            "Physical Layer: Digital signal coding, Modulation",
+            "Multiplexing, Switching, Telephone Networks",
+            "Transmission Media and its properties"
+          ]
+        },
+        {
+          "id": "IOT2103-M2",
+          "name": "Module 2: Data Link Layer and MAC",
+          "topics": [
+            "Framing / Stuffing, Error detection and correction",
+            "Flow Control Protocols: Stop-and-Wait / Go-Back-N / Selective Repeat",
+            "HDLC, PPP",
+            "MAC sub-layer: Ethernet (IEEE 802.3)",
+            "ALOHA / CSMA-CD / Collision Resolution",
+            "Transparent Bridges / Ethernet Switches",
+            "Backward Learning Algorithm, Spanning Trees, Routers"
+          ]
+        },
+        {
+          "id": "IOT2103-M3",
+          "name": "Module 3: Network Layer",
+          "topics": [
+            "IPv4: Packet format, Classful addressing, sub-netting, CIDR",
+            "IPv6: address format, packet format",
+            "Protocols: IP, ICMP, ARP",
+            "Routing algorithm: static and dynamic routing",
+            "Distance vector / Link state algorithm",
+            "Protocols: OSPF, BGP"
+          ]
+        },
+        {
+          "id": "IOT2103-M4",
+          "name": "Module 4: Transport Layer and QoS",
+          "topics": [
+            "Process to process delivery, multiplexing",
+            "TCP: Three-way handshaking, Window management, Flow and congestion control",
+            "UDP; Difference between UDP and TCP",
+            "Congestion control algorithm: open and closed loop",
+            "QoS: Leaky bucket / Token bucket",
+            "Introduction to wireless LAN, Bluetooth, Mobile IP, Mobile TCP"
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "year": 2025,
+          "paper_code": "IOT2103/2025",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 52.08,
+            "IOCQ": 47.92,
+            "HOCQ": 0
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Which type of network topology requires a central controller or hub?",
+                  "options": {
+                    "a": "Bus",
+                    "b": "Ring",
+                    "c": "Star",
+                    "d": "Mesh"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2103-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "Which layer of the OSI model is responsible for error detection and correction?",
+                  "options": {
+                    "a": "Transport",
+                    "b": "Data Link",
+                    "c": "Network",
+                    "d": "Physical"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2103-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "If a single-bit error occurs in a data frame, which method is the simplest to detect it?",
+                  "options": {
+                    "a": "Hamming Code",
+                    "b": "CRC",
+                    "c": "Checksum",
+                    "d": "Parity check"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2103-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "For a sliding window of size n-1, there can be maximum of ___________ frames sent but unacknowledged.",
+                  "options": {
+                    "a": "0",
+                    "b": "n \u2013 1",
+                    "c": "n",
+                    "d": "n + 1"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2103-M2",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "Which field in an IPv4 packet ensures packets are not forwarded indefinitely?",
+                  "options": {
+                    "a": "Time to Live (TTL)",
+                    "b": "Header Length",
+                    "c": "Protocol",
+                    "d": "Checksum"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2103-M3",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "What is the role of ICMP in networking?",
+                  "options": {
+                    "a": "Transmitting data packets",
+                    "b": "Resolving IP addresses to MAC addresses",
+                    "c": "Error reporting and diagnostic functions",
+                    "d": "Encrypting IP packets"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2103-M3",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "If a network has the IPv4 address 192.168.10.0/24, how many usable host addresses can it support?",
+                  "options": {
+                    "a": "126",
+                    "b": "254",
+                    "c": "510",
+                    "d": "10222"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2103-M3",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "If a client wants to establish a reliable connection with a web server, which transport layer protocol should it use?",
+                  "options": {
+                    "a": "UDP",
+                    "b": "TCP",
+                    "c": "ICMP",
+                    "d": "ARP"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2103-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "User datagram protocol is called connectionless because ___________",
+                  "options": {
+                    "a": "all UDP packets are treated independently by transport layer",
+                    "b": "it sends data as a stream of related packets",
+                    "c": "it is received in the same order as sent order",
+                    "d": "it sends data very quickly"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2103-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "Which of the following statements best describes the Leaky Bucket algorithm?",
+                  "options": {
+                    "a": "It maintains a constant output rate and discards excess packets",
+                    "b": "It allows for bursty traffic by accumulating tokens in a bucket",
+                    "c": "It uses a finite queue with a constant output rate for network data",
+                    "d": "It generates tokens at a fixed rate to regulate data flow"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2103-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "The maximum theoretical data rate of a noiseless channel is determined by ____________ theorem.",
+                  "answer": "Nyquist's",
+                  "module": "IOT2103-M1",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "The process of converting an analog signal into a digital signal is called ____________.",
+                  "answer": "Digitization / ADC",
+                  "module": "IOT2103-M1",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "Sliding Window flow control improves efficiency by allowing multiple frames to be sent ________ waiting for an acknowledgment.",
+                  "answer": "without / before",
+                  "module": "IOT2103-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "In IPv6, the address ________ is used as the loopback address, similar to 127.0.0.1 in IPv4.",
+                  "answer": "::1",
+                  "module": "IOT2103-M3",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "Compared to circuit switching, packet switching is more efficient because it allows ________ transmission of data.",
+                  "answer": "multiplexed / statistical",
+                  "module": "IOT2103-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Descriptive",
+                  "question": "Compare different multiplexing techniques (FDM, TDM, WDM).",
+                  "marks": 8,
+                  "module": "IOT2103-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Numerical",
+                  "question": "A channel has a bandwidth of 1 MHz and a Signal-to-Noise Ratio (SNR) of 20 dB. Calculate the maximum data rate using Shannon's Capacity formula.",
+                  "marks": 4,
+                  "module": "IOT2103-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Descriptive",
+                  "question": "Compare and contrast different network topologies based on factors such as cost, performance, scalability, and reliability.",
+                  "marks": 9,
+                  "module": "IOT2103-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Numerical",
+                  "question": "A signal with a bandwidth of 5 MHz is modulated using AM (Amplitude Modulation). What is the total bandwidth required for transmission?",
+                  "marks": 3,
+                  "module": "IOT2103-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the concept of Stop-and-Wait ARQ in flow control mechanisms of the Data Link Layer. Discuss its advantages and limitations compared to sliding window protocols.",
+                  "marks": 8,
+                  "module": "IOT2103-M2",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Numerical",
+                  "question": "A system uses the Stop-And-Wait ARQ protocol. If each packet carries 1000 bits of data, how long does it take to send 1 million bits of data, if the distance between the sender and receiver is 5000 km and the propagation speed is 2\u00d710\u2078 m/s? Ignore transmission, waiting and propagation delay. Assume no data or control frame is lost or damaged.",
+                  "marks": 4,
+                  "module": "IOT2103-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the Carrier Sense Multiple Access with Collision Detection (CSMA/CD) protocol used in LANs. Discuss how it helps in minimizing collisions and improving network performance.",
+                  "marks": 8,
+                  "module": "IOT2103-M2",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "Explain how flooding works as a packet forwarding technique.",
+                  "marks": 4,
+                  "module": "IOT2103-M3",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the Link State Routing algorithm in the Network Layer. Discuss its features, including how routers build and maintain a network topology database for efficient routing.",
+                  "marks": 9,
+                  "module": "IOT2103-M3",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Descriptive",
+                  "question": "Illustrate the need for fragmentation.",
+                  "marks": 3,
+                  "module": "IOT2103-M3",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Descriptive",
+                  "question": "Illustrate the IP header format and analyse how its fragmentation-related fields (Identification, Flags, Fragment Offset) function, their impact on network performance, and propose improvements to optimize fragmentation handling.",
+                  "marks": 8,
+                  "module": "IOT2103-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Numerical",
+                  "question": "You have a 192.168.1.0/24 network and need subnets for: (i) 100 hosts, (ii) 50 hosts, (iii) 25 hosts. Find appropriate subnets.",
+                  "marks": 4,
+                  "module": "IOT2103-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Diagram",
+                  "question": "Draw a TCP state transition diagram for connection management.",
+                  "marks": 6,
+                  "module": "IOT2103-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Descriptive",
+                  "question": "If IP provides connectionless service, how does TCP support connection-oriented service?",
+                  "marks": 6,
+                  "module": "IOT2103-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Numerical",
+                  "question": "A token bucket has a token generation rate of 5 tokens/sec and a bucket size of 20 tokens. How much data can be sent during a sudden burst after being idle for 5 seconds?",
+                  "marks": 6,
+                  "module": "IOT2103-M4",
+                  "co": "CO6",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Descriptive",
+                  "question": "Examine how token bucket parameters (rate and bucket size) affect network performance.",
+                  "marks": 6,
+                  "module": "IOT2103-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IOT2104",
+      "name": "Cybersecurity / Introduction to Cybersecurity",
+      "code": "IOT2104",
+      "credits": 3,
+      "course_outcomes": [
+        "IOT2104.1: Understand cybersecurity concepts, frameworks, and laws, with an insight into attack types, system vulnerabilities, and defense mechanisms.",
+        "IOT2104.2: Identify and analyze cybersecurity principles, governance, threat protection models, and the structure of cyber defense mechanisms.",
+        "IOT2104.3: Explain ethical hacking concepts, tools, and techniques to identify and mitigate security vulnerabilities responsibly.",
+        "IOT2104.4: Understand and analyze information gathering, network scanning, and vulnerability assessment using various tools and techniques.",
+        "IOT2104.5: Explain social engineering and penetration testing methodologies.",
+        "IOT2104.6: Identify and analyze IT security frameworks, access controls, perimeter defense strategies, and web application security methodologies and tools."
+      ],
+      "modules": [
+        {
+          "id": "IOT2104-M1",
+          "name": "Module I: Introduction to Cybersecurity",
+          "topics": [
+            "Key Terms, Security Threats, Vulnerability Assessments",
+            "Roles in Cyber security, Need for Cyber Security",
+            "Cyber Security Standards and Frameworks, Zero-Trust Framework",
+            "Cyber Laws - The Indian IT Act, Cybercrime and Punishment",
+            "Types of cyber-attacks: MITM, SQL injection, DoS, DDoS",
+            "Supply chain attacks, DNS tunneling, DNS spoofing",
+            "Session Hijacking, System Hacking Concepts",
+            "Worms, Trojans, Viruses, Backdoors"
+          ]
+        },
+        {
+          "id": "IOT2104-M2",
+          "name": "Module II: Security Concepts and Ethical Hacking",
+          "topics": [
+            "CIA Triad, Non-Repudiation",
+            "IAM, Incident Response Process",
+            "IT Governance Process, Compliance and Audit",
+            "Security Architecture, Cyber Security Model",
+            "The Cyber Kill Chain, Cyber warfare",
+            "Ethical Hacking Concepts and Scopes",
+            "Types of Hackers, Common Hacking Tools"
+          ]
+        },
+        {
+          "id": "IOT2104-M3",
+          "name": "Module III: Information Gathering and Penetration Testing",
+          "topics": [
+            "Information Gathering and Analysis",
+            "Extracting Information from DNS, Email Servers",
+            "Footprinting, Network scanning concepts",
+            "Port Scanning, Network Scanning and Vulnerability Scanning",
+            "SYN, Stealth, XMAS, NULL, IDLE, FIN Scans",
+            "Banner Grabbing and OS Fingerprinting",
+            "Social Engineering - Concepts, Techniques, and Countermeasures",
+            "Penetration Testing Process and tools"
+          ]
+        },
+        {
+          "id": "IOT2104-M4",
+          "name": "Module IV: IT Security Frameworks and Perimeter Defense",
+          "topics": [
+            "IT Security Frameworks and their purpose",
+            "Business Process Management",
+            "Information Technology Infrastructure Library (ITIL)",
+            "AAA, Access Control Methods",
+            "Physical and Logical Access Control",
+            "Open Web Application Security Project (OWASP)",
+            "Proxy Servers, Demilitarized Zones (DMZs), Honeypots",
+            "Web Hacking methodology and tools",
+            "Password Attacks, Web Server Attack Methodologies"
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "year": 2025,
+          "paper_code": "IOT2104/2025",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 76.04,
+            "IOCQ": 10.42,
+            "HOCQ": 13.54
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Which type of malware is designed to replicate itself and spread to other computers?",
+                  "options": {
+                    "a": "Trojan",
+                    "b": "Virus",
+                    "c": "Worm",
+                    "d": "Spyware"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "The Cyber Kill Chain model is used to",
+                  "options": {
+                    "a": "Identify and classify various types of malware",
+                    "b": "Outline the stages of a cyber-attack from initial compromise to data exfiltration",
+                    "c": "Encrypt sensitive data for secure transmission",
+                    "d": "Develop cybersecurity policies and compliance measures"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "Which cybersecurity principle is concerned with ensuring that data is accurate and trustworthy?",
+                  "options": {
+                    "a": "Confidentiality",
+                    "b": "Integrity",
+                    "c": "Availability",
+                    "d": "Non-repudiation"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "Which component of the CIA triad is most impacted by a ransomware attack?",
+                  "options": {
+                    "a": "Confidentiality",
+                    "b": "Integrity",
+                    "c": "Availability",
+                    "d": "Authentication"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "Which of the following is an example of multi-factor authentication?",
+                  "options": {
+                    "a": "Username and password",
+                    "b": "Password and security question",
+                    "c": "Password and biometric factor",
+                    "d": "Password and PIN"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "What is the primary difference between reconnaissance and surveillance?",
+                  "options": {
+                    "a": "Reconnaissance involves ongoing monitoring, while surveillance is a one-time check.",
+                    "b": "Reconnaissance is often a preemptive activity, while surveillance is continuous.",
+                    "c": "Surveillance is typically done by human agents, while reconnaissance uses technology.",
+                    "d": "There is no significant difference; the terms are interchangeable."
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "Which tool would you use to resolve a domain name into its corresponding IP address?",
+                  "options": {
+                    "a": "whois",
+                    "b": "Harvester",
+                    "c": "Host",
+                    "d": "Netcraft"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "What is footprinting in the context of reconnaissance?",
+                  "options": {
+                    "a": "The process of removing malware from a system",
+                    "b": "The initial stage of gathering information to map out a target's network",
+                    "c": "The final stage of a penetration test where a report is generated",
+                    "d": "The process of exploiting a vulnerability in a system"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "Which type of proxy server is used to provide anonymity by hiding the client's IP address?",
+                  "options": {
+                    "a": "Forward Proxy",
+                    "b": "Reverse Proxy",
+                    "c": "Transparent Proxy",
+                    "d": "Anonymous Proxy"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "After monitoring a security incident response process, what step is taken in the optimization phase?",
+                  "options": {
+                    "a": "Training employees on new security protocols",
+                    "b": "Rewriting the incident response plan",
+                    "c": "Implementing a new security control",
+                    "d": "Developing the plan for the first time"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "In the context of cyber warfare, the technique used to disrupt or damage an opponent's information systems is __________",
+                  "answer": "Cyber attack / Information Warfare",
+                  "module": "IOT2104-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "Hash functions and checksums help ensure ________",
+                  "answer": "Integrity",
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "________ is a scan that avoids detection by not completing the TCP handshake",
+                  "answer": "SYN/Stealth scan",
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "An attack where an attacker manipulates people into divulging confidential information is called ________",
+                  "answer": "Social Engineering",
+                  "module": "IOT2104-M3",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "A ________ model is used to identify, assess, and prioritize potential threats to a system",
+                  "answer": "Threat modeling",
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the major types of cyber-attacks.",
+                  "marks": 6,
+                  "module": "IOT2104-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "Define Section 43 and Section 65 under the Information Technology Act of India.",
+                  "marks": 4,
+                  "module": "IOT2104-M1",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(c)",
+                  "type": "Descriptive",
+                  "question": "Differentiate between cyber threats and threat actors.",
+                  "marks": 2,
+                  "module": "IOT2104-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the term 'social engineering'. How can it affect cyber security?",
+                  "marks": 5,
+                  "module": "IOT2104-M3",
+                  "co": "CO1",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Descriptive",
+                  "question": "Identify the role of the Information Technology Act in cyber security.",
+                  "marks": 5,
+                  "module": "IOT2104-M1",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(c)",
+                  "type": "Descriptive",
+                  "question": "Why does a debate exist among cyber security experts as to what kind of activity constitutes cyber warfare?",
+                  "marks": 2,
+                  "module": "IOT2104-M2",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "'The incident response lifecycle is crucial for cyber security' \u2013 Explain.",
+                  "marks": 4,
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Descriptive",
+                  "question": "Discuss a lifecycle which is a systematic process that organizations use to manage and respond to cybersecurity incidents.",
+                  "marks": 6,
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(c)",
+                  "type": "Descriptive",
+                  "question": "Differentiate between DoS and Man-in-the-Middle attacks.",
+                  "marks": 2,
+                  "module": "IOT2104-M1",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the role of authentication, authorization, and accounting (AAA) in access control. Provide examples.",
+                  "marks": 6,
+                  "module": "IOT2104-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "What are the major components of a cybersecurity governance model? How do they influence policy-making and risk management?",
+                  "marks": 6,
+                  "module": "IOT2104-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Descriptive",
+                  "question": "Describe key components and techniques involved in passive information gathering.",
+                  "marks": 6,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Descriptive",
+                  "question": "How can reconnaissance lead to threat and risk in an organisation?",
+                  "marks": 4,
+                  "module": "IOT2104-M3",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "6(c)",
+                  "type": "Descriptive",
+                  "question": "How can active and passive reconnaissance be differentiated with respect to timing and visibility?",
+                  "marks": 2,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Descriptive",
+                  "question": "Why are ping sweeps used in cyber security?",
+                  "marks": 4,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Descriptive",
+                  "question": "Describe some important flags of nmap command.",
+                  "marks": 6,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(c)",
+                  "type": "Descriptive",
+                  "question": "How can OS fingerprinting techniques lead to a cyber-threat?",
+                  "marks": 2,
+                  "module": "IOT2104-M3",
+                  "co": "CO3",
+                  "cognition": "HOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the benefits of Virtual Private Network.",
+                  "marks": 4,
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Descriptive",
+                  "question": "Describe the basics of internet security.",
+                  "marks": 6,
+                  "module": "IOT2104-M4",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(c)",
+                  "type": "Descriptive",
+                  "question": "Explain two access control models.",
+                  "marks": 2,
+                  "module": "IOT2104-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Descriptive",
+                  "question": "What is Business Process Management (BPM)? How does it relate to cybersecurity and risk management in an organization?",
+                  "marks": 6,
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Descriptive",
+                  "question": "Describe the Information Technology Infrastructure Library (ITIL). Highlight its key processes and explain its relevance to cybersecurity.",
+                  "marks": 6,
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "paper_code": "IOT2102/2024",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 61.46,
+            "IOCQ": 25,
+            "HOCQ": 13.54
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Which of the following is a common method used by attackers to gain unauthorized access to a system?",
+                  "options": {
+                    "a": "Phishing",
+                    "b": "Encryption",
+                    "c": "VPN",
+                    "d": "Firewall"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2104-M1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "Which of the following best describes multi-factor authentication (MFA)?",
+                  "options": {
+                    "a": "A method requiring multiple passwords for access",
+                    "b": "A security measure that requires two or more verification methods",
+                    "c": "A system for scanning emails for malware",
+                    "d": "A technique for encrypting data at rest"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "Which IT governance framework focuses on performance management and value delivery?",
+                  "options": {
+                    "a": "COBIT",
+                    "b": "ITIL",
+                    "c": "ISO 27001",
+                    "d": "None of these"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2104-M4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "Which principle of the CIA triad would be compromised if a server is down for an extended period?",
+                  "options": {
+                    "a": "Confidentiality",
+                    "b": "Integrity",
+                    "c": "Availability",
+                    "d": "Non-repudiation"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "Which of the following is an example of multi-factor authentication?",
+                  "options": {
+                    "a": "Username and password",
+                    "b": "Password and security question",
+                    "c": "Password and biometric factor",
+                    "d": "Password and PIN"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "What is the primary goal of reconnaissance in a cyber-warfare context?",
+                  "options": {
+                    "a": "To attack enemy networks",
+                    "b": "To gather information on vulnerabilities and network configurations",
+                    "c": "To disrupt enemy communications",
+                    "d": "To install malware"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "Which tool would you use to resolve a domain name into its corresponding IP address?",
+                  "options": {
+                    "a": "whois",
+                    "b": "Harvester",
+                    "c": "Host",
+                    "d": "Netcraft"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "What is the main goal of network scanning?",
+                  "options": {
+                    "a": "To identify live hosts, open ports, and services on a network",
+                    "b": "To test network speed",
+                    "c": "To detect malware in files",
+                    "d": "To encrypt data in transit"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2104-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "What is the main principle of Mandatory Access Control (MAC)?",
+                  "options": {
+                    "a": "Users are granted access based on their role",
+                    "b": "Access is granted based on user discretion",
+                    "c": "Access policies are defined by system administrators and are enforced by the system",
+                    "d": "Access is granted based on attributes and conditions"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2104-M4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "Which of the following is NOT a common use case for proxy servers?",
+                  "options": {
+                    "a": "Load balancing",
+                    "b": "Data encryption",
+                    "c": "Web filtering",
+                    "d": "Caching content"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2104-M4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "Hash functions and checksums help ensure __________.",
+                  "answer": "Integrity",
+                  "module": "IOT2104-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "A port scanning technique which uses SYN packets to determine open ports is _________.",
+                  "answer": "SYN scan / Half-open scan",
+                  "module": "IOT2104-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "________ is a scan that avoids detection by not completing the TCP handshake.",
+                  "answer": "SYN/Stealth scan",
+                  "module": "IOT2104-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "An attack where an attacker manipulates people into divulging confidential information is called _________.",
+                  "answer": "Social Engineering",
+                  "module": "IOT2104-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "Making sure that authorized users can access information when needed is called ____________.",
+                  "answer": "Availability",
+                  "module": "IOT2104-M2",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the major types of cyber-attacks.",
+                  "marks": 6,
+                  "module": "IOT2104-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "Define Section 43 and Section 65 under the Information Technology Act of India.",
+                  "marks": 4,
+                  "module": "IOT2104-M1",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(c)",
+                  "type": "Descriptive",
+                  "question": "Differentiate between cyber threats and threat actors.",
+                  "marks": 2,
+                  "module": "IOT2104-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the cyber kill chain and its different phases.",
+                  "marks": 6,
+                  "module": "IOT2104-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Descriptive",
+                  "question": "Describe different phases of social engineering with a suitable diagram.",
+                  "marks": 6,
+                  "module": "IOT2104-M3",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "'The incident response lifecycle is crucial for cyber security' \u2013 Explain.",
+                  "marks": 4,
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Descriptive",
+                  "question": "Discuss a lifecycle which is a systematic process that organizations use to manage and respond to cybersecurity incidents.",
+                  "marks": 6,
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(c)",
+                  "type": "Descriptive",
+                  "question": "Differentiate between DoS and Man-in-the-Middle attacks.",
+                  "marks": 2,
+                  "module": "IOT2104-M1",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss different types of cyber security frameworks.",
+                  "marks": 5,
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "How is cyber security framework important for securing assets in an organization?",
+                  "marks": 5,
+                  "module": "IOT2104-M2",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(c)",
+                  "type": "Descriptive",
+                  "question": "Define cyber security audit and compliance.",
+                  "marks": 2,
+                  "module": "IOT2104-M2",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Descriptive",
+                  "question": "Describe key components and techniques involved in passive information gathering.",
+                  "marks": 6,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Descriptive",
+                  "question": "How can reconnaissance lead to threat and risk in an organisation?",
+                  "marks": 4,
+                  "module": "IOT2104-M3",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "6(c)",
+                  "type": "Descriptive",
+                  "question": "How can active and passive reconnaissance be differentiated with respect to timing and visibility?",
+                  "marks": 2,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the use of 'host' command with a suitable example.",
+                  "marks": 5,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Descriptive",
+                  "question": "Explain the role of DNS servers as targets for hackers and penetration testers.",
+                  "marks": 5,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "7(c)",
+                  "type": "Descriptive",
+                  "question": "What is the output of netcraft service?",
+                  "marks": 2,
+                  "module": "IOT2104-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Descriptive",
+                  "question": "How are the identification and AAA part of the access control process?",
+                  "marks": 5,
+                  "module": "IOT2104-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Descriptive",
+                  "question": "What is performed by a proxy server? How does a proxy server work?",
+                  "marks": 5,
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(c)",
+                  "type": "Descriptive",
+                  "question": "Why should an organization use a DMZ?",
+                  "marks": 2,
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the benefits of Virtual Private Network.",
+                  "marks": 4,
+                  "module": "IOT2104-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Descriptive",
+                  "question": "Describe the basics of internet security.",
+                  "marks": 6,
+                  "module": "IOT2104-M4",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(c)",
+                  "type": "Descriptive",
+                  "question": "Explain two access control models.",
+                  "marks": 2,
+                  "module": "IOT2104-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alternate_names": [
+        "Cybersecurity (IOT2104) - 2025",
+        "Introduction to Cybersecurity (IOT2102) - 2024"
+      ]
+    },
+    {
+      "id": "IOT2105",
+      "name": "Network Security and Cryptography / Fundamentals of Network Security and Cryptography",
+      "code": "IOT2105",
+      "credits": 4,
+      "course_outcomes": [
+        "IOT2105.1: Understand the concepts of Cryptography and Network Security including Private and Public key cryptography and various protocols to protect computing system against potential threats.",
+        "IOT2105.2: Explore Mathematical techniques for supporting the cryptographic mechanisms.",
+        "IOT2105.3: Analyze and compare various cryptographic techniques.",
+        "IOT2105.4: Evaluate security mechanisms using rigorous approaches by key ciphers, message authentication and Hash functions.",
+        "IOT2105.5: Investigate various network security applications, IPsec, Firewall, IDS, Web Security, Email Security and Malicious software etc.",
+        "IOT2105.6: Design a secure network after analyzing the vulnerabilities in any computing system."
+      ],
+      "modules": [
+        {
+          "id": "IOT2105-M1",
+          "name": "Module I: Introduction and Number Theory",
+          "topics": [
+            "Need for Security, Security services",
+            "Security Mechanisms, Principles of Security",
+            "Types of attack, concept of virus, worm",
+            "Substitution Techniques, Transposition Techniques, Rotor Machines, Stenography",
+            "Symmetric & Asymmetric key Cryptography",
+            "Number Theory: Integer Arithmetic, Modular Arithmetic",
+            "Prime Numbers, Fermat's and Euler's Theorem",
+            "Chinese Remainder Theorem, Discrete Logarithms"
+          ]
+        },
+        {
+          "id": "IOT2105-M2",
+          "name": "Module II: Symmetric Key Cryptography",
+          "topics": [
+            "Block Cipher, Stream Cipher, Feistel Cipher Structure",
+            "DES algorithm, Multiple Encryption, Double and Triple DES",
+            "Block Cipher Modes of Operation",
+            "Strength of DES, Attacks on DES",
+            "AES algorithm, IDEA algorithm, Blowfish, RC5 algorithm",
+            "Concept of digital envelope"
+          ]
+        },
+        {
+          "id": "IOT2105-M3",
+          "name": "Module III: Public Key Cryptography and Authentication",
+          "topics": [
+            "Trapdoor, one way function",
+            "Diffie Hellman Key Exchange algorithm, man in the middle attack",
+            "RSA algorithm, Elgamal algorithm",
+            "Key Management, Elliptic Curve Cryptography",
+            "Message Authentication Code, Secure Hash Algorithm, HMAC",
+            "Digital Signature, Digital Signature Standard"
+          ]
+        },
+        {
+          "id": "IOT2105-M4",
+          "name": "Module IV: Network Security Applications",
+          "topics": [
+            "Email Security: PGP, MIME, S/MIME",
+            "IP Security Architecture, Authentication Header",
+            "Encapsulating Security Payload",
+            "Web Security Requirements, SSL and TLS",
+            "Introduction to Firewalls, Types of Firewalls",
+            "IDS, Distributed Denial of Service attack"
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "year": 2025,
+          "paper_code": "IOT2105/2025",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 54.16,
+            "IOCQ": 41.67,
+            "HOCQ": 4.17
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "The process to discover plain text or key is known as",
+                  "options": {
+                    "a": "cryptanalysis",
+                    "b": "crypto design",
+                    "c": "crypto processing",
+                    "d": "crypto graphic"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "GCD(n, n+1) = 1 always",
+                  "options": {
+                    "a": "true",
+                    "b": "false",
+                    "c": "maybe",
+                    "d": "can't be said"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2105-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "The Data Encryption Standard (DES) follows",
+                  "options": {
+                    "a": "Hash Algorithm",
+                    "b": "Caesars Cipher",
+                    "c": "Feistel Cipher Structure",
+                    "d": "SP Networks"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "Which symmetric key encryption algorithm was widely used in the past but is now considered insecure due to its short key length?",
+                  "options": {
+                    "a": "DES",
+                    "b": "AES",
+                    "c": "3DES",
+                    "d": "RSA"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "In the RSA algorithm, we select 2 random large values 'p' and 'q'. Which of the following is the property of 'p' and 'q'?",
+                  "options": {
+                    "a": "P and q should be divisible by \u03a6(n)",
+                    "b": "P and q should be co-prime",
+                    "c": "P and q should be prime",
+                    "d": "p/q should give no remainder"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M3",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "SHA-1 produces a hash value of",
+                  "options": {
+                    "a": "256 bits",
+                    "b": "160 bits",
+                    "c": "180 bits",
+                    "d": "128 bits"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "Which of the following is not a property of public key cryptography?",
+                  "options": {
+                    "a": "Uses different keys",
+                    "b": "Every user has a unique private key",
+                    "c": "Public key can be same for number of users",
+                    "d": "Cannot deduce private key from public key"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M3",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "Which helps in ensuring non-fraudulent transactions on the web",
+                  "options": {
+                    "a": "certificate authority",
+                    "b": "digital authority",
+                    "c": "dual authority",
+                    "d": "digital signature"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "A proxy firewall filters at the",
+                  "options": {
+                    "a": "physical layer",
+                    "b": "application layer",
+                    "c": "data link layer",
+                    "d": "network layer"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "What is the primary purpose of an email security standard like PGP or S/MIME?",
+                  "options": {
+                    "a": "To prevent spam",
+                    "b": "To filter out malicious software",
+                    "c": "To encrypt and digitally sign emails for privacy and integrity",
+                    "d": "To speed up email delivery"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "_____ means that a sender must not be able to deny sending a message that he sent.",
+                  "answer": "Non-repudiation",
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "The _________ attack can endanger the security of the Diffie-Hellman method if two parties are not authenticated to each other.",
+                  "answer": "Man-in-the-Middle",
+                  "module": "IOT2105-M3",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "In _______, the cryptographic algorithms and secrets are sent with the message.",
+                  "answer": "Steganography",
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "IPSec defines two protocols: _______ and ________.",
+                  "answer": "AH (Authentication Header) and ESP (Encapsulating Security Payload)",
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "In the digital signature technique, the sender of the message uses _____________ to create cipher text.",
+                  "answer": "Private key",
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Proof",
+                  "question": "Prove the following: [(a mod n)(b mod n)] mod n = (ab) mod n.",
+                  "marks": 5,
+                  "module": "IOT2105-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "State and illustrate the Chinese Remainder Theorem with an example.",
+                  "marks": 5,
+                  "module": "IOT2105-M1",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(c)",
+                  "type": "Numerical",
+                  "question": "Find the primitive root of 7.",
+                  "marks": 2,
+                  "module": "IOT2105-M1",
+                  "co": "CO2",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Descriptive",
+                  "question": "What are the basic principles of information security? How do these principles guide the design of secure systems and protocols?",
+                  "marks": 6,
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Descriptive",
+                  "question": "What is steganography? How does it differ from cryptography? Discuss the applications and limitations of steganography.",
+                  "marks": 6,
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "State the principles of diffusion and confusion. What is cryptology?",
+                  "marks": 3,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Descriptive",
+                  "question": "Discuss Meet in the Middle attack with suitable numeric example.",
+                  "marks": 4,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(c)",
+                  "type": "Descriptive",
+                  "question": "Explain the drawback of DES and Double DES algorithm and state the concept of Triple DES algorithm. Use suitable diagrams as necessary.",
+                  "marks": 5,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "Discuss the working of a stream cipher. Discuss how it differs from a block cipher in terms of speed, error propagation, and usage scenarios.",
+                  "marks": 6,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "Discuss the encryption and decryption processes of a Feistel cipher with a block diagram. Why is it invertible even if the round function is not?",
+                  "marks": 6,
+                  "module": "IOT2105-M2",
+                  "co": "CO2",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Numerical",
+                  "question": "Calculate the cipher text (encryption) and the consequent plain text (decryption) using the RSA algorithm, for the following: p = 7; q = 11, e = 17; M = 8.",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Numerical",
+                  "question": "Users A and B use the Diffie-Hellman key exchange technique with a common prime q = 71 and a primitive root a = 7. (i) If user A has private key XA = 5, what is A's public key YA? (ii) If user B has private key XB = 12, what is B's public key YB? What is the shared secret key?",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Descriptive",
+                  "question": "When a combination of symmetric encryption and an error control code is used for message authentication, in what order must the two functions be performed?",
+                  "marks": 4,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "HOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Descriptive",
+                  "question": "What properties a digital signature should have? What requirements should a digital signature scheme satisfy?",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(c)",
+                  "type": "Descriptive",
+                  "question": "What characteristics are needed in a secure hash function?",
+                  "marks": 2,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the NAT with suitable diagram.",
+                  "marks": 3,
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Descriptive",
+                  "question": "State the limitations of a firewall.",
+                  "marks": 3,
+                  "module": "IOT2105-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(c)",
+                  "type": "Descriptive",
+                  "question": "Explain the working of IPSec.",
+                  "marks": 6,
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the establish security capabilities phase of the handshake protocol in SSL. Explain server authentication and key exchange phase of the handshake protocol in SSL.",
+                  "marks": 8,
+                  "module": "IOT2105-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Descriptive",
+                  "question": "Explain client authentication and key exchange phase of the handshake protocol in SSL.",
+                  "marks": 4,
+                  "module": "IOT2105-M4",
+                  "co": "CO6",
+                  "cognition": "IOCQ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "paper_code": "IOT2103/2024",
+          "total_marks": 60,
+          "time": "2.5 hrs",
+          "cognition_distribution": {
+            "LOCQ": 55.2,
+            "IOCQ": 44.8,
+            "HOCQ": 4
+          },
+          "groups": [
+            {
+              "group": "A",
+              "instruction": "Answer any twelve",
+              "marks_per_question": 1,
+              "total_marks": 12,
+              "questions": [
+                {
+                  "q_no": "1(i)",
+                  "type": "MCQ",
+                  "question": "Use Caesar's Cipher (shift=3) to decipher: HQFUBSWHG WHAW",
+                  "options": {
+                    "a": "ABANDONED LOCK",
+                    "b": "ENCRYPTED TEXT",
+                    "c": "ABANDONED TEXT",
+                    "d": "ENCRYPTED LOCK"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2105-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(ii)",
+                  "type": "MCQ",
+                  "question": "What is 11 mod 7 and -11 mod 7?",
+                  "options": {
+                    "a": "4 and 5",
+                    "b": "4 and 4",
+                    "c": "5 and 3",
+                    "d": "4 and 3"
+                  },
+                  "correct_answer": "d",
+                  "module": "IOT2105-M1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(iii)",
+                  "type": "MCQ",
+                  "question": "The Data Encryption Standard (DES) follows",
+                  "options": {
+                    "a": "Hash Algorithm",
+                    "b": "Caesars Cipher",
+                    "c": "Feistel Cipher Structure",
+                    "d": "SP Networks"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(iv)",
+                  "type": "MCQ",
+                  "question": "The number of unique substitution boxes in DES after the 48 bit XOR operation are",
+                  "options": {
+                    "a": "8",
+                    "b": "4",
+                    "c": "6",
+                    "d": "12"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2105-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(v)",
+                  "type": "MCQ",
+                  "question": "The 4\u00d74 byte matrices in the AES Algorithm are called",
+                  "options": {
+                    "a": "States",
+                    "b": "Words",
+                    "c": "Transitions",
+                    "d": "Permutations"
+                  },
+                  "correct_answer": "a",
+                  "module": "IOT2105-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vi)",
+                  "type": "MCQ",
+                  "question": "In the RSA algorithm, we select 2 random large values 'p' and 'q'. Which of the following is the property of 'p' and 'q'?",
+                  "options": {
+                    "a": "P and q should be divisible by \u03a6(n)",
+                    "b": "P and q should be co-prime",
+                    "c": "P and q should be prime",
+                    "d": "p/q should give no remainder"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(vii)",
+                  "type": "MCQ",
+                  "question": "SHA-1 produces a hash value of",
+                  "options": {
+                    "a": "256 bits",
+                    "b": "160 bits",
+                    "c": "180 bits",
+                    "d": "128 bits"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2105-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(viii)",
+                  "type": "MCQ",
+                  "question": "What cannot be provided for the message by a Digital Signature?",
+                  "options": {
+                    "a": "Integrity",
+                    "b": "Confidentiality",
+                    "c": "Nonrepudiation",
+                    "d": "Authentication"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2105-M3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(ix)",
+                  "type": "MCQ",
+                  "question": "A proxy firewall filters at the",
+                  "options": {
+                    "a": "physical layer",
+                    "b": "application layer",
+                    "c": "data link layer",
+                    "d": "network layer"
+                  },
+                  "correct_answer": "b",
+                  "module": "IOT2105-M4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(x)",
+                  "type": "MCQ",
+                  "question": "SSL is placed in between the",
+                  "options": {
+                    "a": "transport & datalink layers",
+                    "b": "application & presentation layers",
+                    "c": "application & transport layers",
+                    "d": "application & session layers"
+                  },
+                  "correct_answer": "c",
+                  "module": "IOT2105-M4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xi)",
+                  "type": "Fill in the blank",
+                  "question": "Message _______ means that the receiver is ensured that the message is coming from the intended sender, not an imposter.",
+                  "answer": "Authentication",
+                  "module": "IOT2105-M3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xii)",
+                  "type": "Fill in the blank",
+                  "question": "DES consists of __________ rounds to perform the substitution and transposition techniques. _________ is the first step in DES.",
+                  "answer": "16 rounds; Initial Permutation (IP)",
+                  "module": "IOT2105-M2",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "1(xiii)",
+                  "type": "Fill in the blank",
+                  "question": "The _________ attack can endanger the security of the Diffie-Hellman method if two parties are not authenticated to each other.",
+                  "answer": "Man-in-the-Middle",
+                  "module": "IOT2105-M3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xiv)",
+                  "type": "Fill in the blank",
+                  "question": "For an m-bit value, the adversary would have to try _______ values to generate a given hash value h.",
+                  "answer": "2^m",
+                  "module": "IOT2105-M3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "1(xv)",
+                  "type": "Fill in the blank",
+                  "question": "AES uses a ____________ bit block size and a key size of __________ bits.",
+                  "answer": "128 bit block size; 128, 192, or 256 bits",
+                  "module": "IOT2105-M2",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "B",
+              "questions": [
+                {
+                  "q_no": "2(a)",
+                  "type": "Descriptive",
+                  "question": "Distinguish between active and passive security attacks. Which attack is more difficult to detect?",
+                  "marks": 4,
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "2(b)",
+                  "type": "Descriptive",
+                  "question": "Explain briefly about the following terms in the context of Network Security: (i) Confidentiality, (ii) Integrity, (iii) Authentication.",
+                  "marks": 6,
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "2(c)",
+                  "type": "Descriptive",
+                  "question": "What is non-repudiation?",
+                  "marks": 2,
+                  "module": "IOT2105-M1",
+                  "co": "CO1",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "3(a)",
+                  "type": "Numerical",
+                  "question": "Using the Caesar Shift cipher with key value=5, decrypt the word 'STAJRGJW'.",
+                  "marks": 6,
+                  "module": "IOT2105-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "3(b)",
+                  "type": "Numerical",
+                  "question": "Using the Vigen\u00e8re cipher, encrypt the word 'anticipation' using the key 'joker'.",
+                  "marks": 6,
+                  "module": "IOT2105-M1",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "C",
+              "questions": [
+                {
+                  "q_no": "4(a)",
+                  "type": "Descriptive",
+                  "question": "Explain the DES (Data Encryption Standard) encryption algorithm.",
+                  "marks": 7,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "4(b)",
+                  "type": "Descriptive",
+                  "question": "Illustrate the purpose of the S-boxes in Data Encryption Standard.",
+                  "marks": 3,
+                  "module": "IOT2105-M2",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "4(c)",
+                  "type": "Descriptive",
+                  "question": "Explain what is symmetric key cryptography.",
+                  "marks": 2,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(a)",
+                  "type": "Descriptive",
+                  "question": "What is unconditionally secure cipher and computationally secure cipher?",
+                  "marks": 5,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(b)",
+                  "type": "Descriptive",
+                  "question": "What is the difference between a block cipher and a stream cipher?",
+                  "marks": 3,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "5(c)",
+                  "type": "Descriptive",
+                  "question": "What are the essential ingredients of a symmetric cipher?",
+                  "marks": 4,
+                  "module": "IOT2105-M2",
+                  "co": "CO3",
+                  "cognition": "IOCQ"
+                }
+              ]
+            },
+            {
+              "group": "D",
+              "questions": [
+                {
+                  "q_no": "6(a)",
+                  "type": "Numerical",
+                  "question": "Calculate the cipher text (encryption) and the consequent plain text (decryption) using the RSA algorithm: p=7, q=11, e=17, M=8.",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "6(b)",
+                  "type": "Numerical",
+                  "question": "Users A and B use Diffie-Hellman with common prime q=71 and primitive root a=7. (i) If XA=5, what is YA? (ii) If XB=12, what is YB? What is the shared secret key?",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "IOCQ"
+                },
+                {
+                  "q_no": "7(a)",
+                  "type": "Descriptive",
+                  "question": "What types of attacks are addressed by message authentication? What are some approaches to producing message authentication?",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "7(b)",
+                  "type": "Descriptive",
+                  "question": "What is a message authentication code? What is the difference between a message authentication code and a one-way hash function?",
+                  "marks": 6,
+                  "module": "IOT2105-M3",
+                  "co": "CO4",
+                  "cognition": "LOCQ"
+                }
+              ]
+            },
+            {
+              "group": "E",
+              "questions": [
+                {
+                  "q_no": "8(a)",
+                  "type": "Descriptive",
+                  "question": "What is a firewall? What are the different types of firewall? Explain the working principle of each briefly.",
+                  "marks": 6,
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(b)",
+                  "type": "Descriptive",
+                  "question": "What are the limitations of a firewall?",
+                  "marks": 3,
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "8(c)",
+                  "type": "Descriptive",
+                  "question": "What is a worm? How does it differ from a virus?",
+                  "marks": 3,
+                  "module": "IOT2105-M4",
+                  "co": "CO5",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(a)",
+                  "type": "Descriptive",
+                  "question": "Define virus and give a brief overview about the most significant types of viruses.",
+                  "marks": 6,
+                  "module": "IOT2105-M4",
+                  "co": "CO6",
+                  "cognition": "LOCQ"
+                },
+                {
+                  "q_no": "9(b)",
+                  "type": "Descriptive",
+                  "question": "Define Distributed Denial of Service Attacks (DDoS). Explain the lines of defence as possible countermeasures to prevent the DDoS.",
+                  "marks": 6,
+                  "module": "IOT2105-M4",
+                  "co": "CO6",
+                  "cognition": "IOCQ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alternate_names": [
+        "Network Security and Cryptography (IOT2105) - 2025",
+        "Fundamentals of Network Security and Cryptography (IOT2103) - 2024"
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-09-27",
+    "total_subjects": 5,
+    "total_papers": 8,
+    "years_covered": [
+      2024,
+      2025
+    ],
+    "description": "Complete exam question database for B.Tech CSE(IoT) 3rd Semester. Contains all MCQs, fill-in-the-blanks, and descriptive questions mapped to subjects, modules, course outcomes, and cognition levels (LOCQ/IOCQ/HOCQ). Similar subjects across 2024 and 2025 are merged under one entry.",
+    "cognition_levels": {
+      "LOCQ": "Lower Order Cognitive Questions (Remember, Understand)",
+      "IOCQ": "Intermediate Order Cognitive Questions (Apply, Analyze)",
+      "HOCQ": "Higher Order Cognitive Questions (Evaluate, Create)"
+    },
+    "question_types": [
+      "MCQ",
+      "Fill in the blank",
+      "Descriptive",
+      "Numerical",
+      "Algorithmic",
+      "Proof",
+      "Diagram",
+      "Analytical"
+    ]
+  }
+}
