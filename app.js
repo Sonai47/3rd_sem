@@ -15,7 +15,8 @@
       type: 'all',
       cognition: 'all'
     },
-    globalSearchQuery: ''
+    globalSearchQuery: '',
+    theme: 'light'
   };
 
   const elements = {
@@ -34,11 +35,14 @@
     cognitionGuideModal: document.getElementById('cognition-guide-modal'),
     cognitionGuideBtn: document.getElementById('cognition-guide-btn'),
     cognitionGuideClose: document.getElementById('cognition-guide-close'),
+    themeToggleBtn: document.getElementById('theme-toggle-btn'),
+    themeToggleLabel: document.getElementById('theme-toggle-label'),
     toastContainer: document.getElementById('toast-container'),
     brandHomeBtn: document.getElementById('brand-home-btn')
   };
 
   async function init() {
+    initTheme();
     setupEventListeners();
     await loadDatabase();
     handleRouting();
@@ -1117,7 +1121,56 @@
     elements.cognitionGuideModal.classList.remove('active');
   }
 
+  // ==========================================
+  // Dark / Light Theme System
+  // ==========================================
+  function initTheme() {
+    const savedTheme = localStorage.getItem('exam_bank_theme');
+    let theme = savedTheme;
+    if (!theme) {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    applyTheme(theme, false);
+
+    if (window.matchMedia) {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('exam_bank_theme')) {
+          applyTheme(e.matches ? 'dark' : 'light', false);
+        }
+      });
+    }
+  }
+
+  function applyTheme(theme, notify = true) {
+    state.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('exam_bank_theme', theme);
+
+    if (elements.themeToggleLabel) {
+      elements.themeToggleLabel.textContent = theme === 'dark' ? 'Light' : 'Dark';
+    }
+    if (elements.themeToggleBtn) {
+      const title = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+      elements.themeToggleBtn.setAttribute('title', title);
+      elements.themeToggleBtn.setAttribute('aria-label', title);
+    }
+
+    if (notify) {
+      showToast(`${theme === 'dark' ? '🌙 Dark Mode' : '☀️ Light Mode'} active`);
+    }
+  }
+
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    applyTheme(nextTheme, true);
+  }
+
   function setupEventListeners() {
+    if (elements.themeToggleBtn) {
+      elements.themeToggleBtn.addEventListener('click', toggleTheme);
+    }
+
     elements.navSubjectSelect.addEventListener('change', (e) => {
       if (e.target.value) {
         navigateTo(`#subject/${e.target.value}`);
@@ -1262,7 +1315,9 @@
     copyQuestionText,
     jumpToQuestion,
     closeBookmarksModal,
-    clearAllBookmarks
+    clearAllBookmarks,
+    toggleTheme,
+    applyTheme
   };
 
   if (document.readyState === 'loading') {
